@@ -1,0 +1,35 @@
+<div class="container" style="margin-top: 50px;">
+<form (ngSubmit)="creerclient()" [formGroup]="form">
+    <!-- Grid row -->
+    <div class="form-row">
+      <!-- Default input -->
+      <div class="form-group col-md-6">
+        <input mdbInput type="text" class="form-control" formControlName="nom" id="nom" name="nom" placeholder="nom">
+        
+      </div>
+      <!-- Default input -->
+      <div class="form-group col-md-6">
+        <input mdbInput type="text" class="form-control" formControlName="prenom" id="prenom" name="prenom" placeholder="prenom">
+       
+      </div>
+    </div>
+    <div class="form-row">
+        <!-- Default input -->
+        <div class="form-group col-md-6">
+          <input mdbInput type="text" class="form-control" formControlName="cin" id="cin" name="cin" placeholder="cin">
+          
+        </div>
+        <!-- Default input -->
+        <div class="form-group col-md-6">
+          <input mdbInput type="text" class="form-control" formControlName="telephone" id="telephone" name="telephone" placeholder="num telephone">
+         
+        </div>
+      </div>
+
+   
+    <button type="submit" mdbBtn color="primary">ajouter client</button>
+  </form>
+ 
+</div>
+         
+    
